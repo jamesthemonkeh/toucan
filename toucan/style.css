@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General settings */
+
+body {
+    background-color: #000000;
+    color: #16629d;
+    font-family: 'Ubuntu', cursive;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 8vw;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 2vw;
+}
+
+select, input {
+    margin: 0 auto;
+    height: 4vw;
+    font-size: 2vw;
+    color: #431e6c;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    min-width: 30vw;
+}
+
+.submit-button {
+    background-color: #3399ff;
+    color: #ffffff;
+    display: block;
+}
+
+.centre {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Container */
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 70vw;
+        max-width: 1200px;  /* Set maximum width for those with huge monitors */
+    }
+}
+
+/* Nav */
+
+nav {
+    background-color: #ffffff;
+}
+
+/* View Database section */
+
+.view-database {
+    background-color: #ffffff;
+    color: #431e6c;
+    min-height: 400px; /* temp style */ 
+}
+
+.view-database h2 {
+    padding-top: 20px;
+}
+
+.select-box {
+    text-align: center;
+    padding-top: 2vw;
+}
+
+/* Hero Image */
+
+.hero-image {
+    background-image: url(hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: #ffffff;
+}
+
+/* Add to Database section */
+
+.add-to-database {
+    background-color: #f2f2f2;
+    color: #3399ff;
+    min-height: 400px; /* temp style */ 
+    padding-bottom: 5vw;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3399ff;
+    color: #ffffff;
+}
